@@ -21,36 +21,27 @@ export default function Experience() {
 
   const roles = [
     {
-      title: "DevOps Engineering Intern",
+      title: "Software Engineering Intern",
       org: "nirvanaHealth | RxAdvance",
       meta: "Feb 2025 – Present",
       bullets: [
-        "Azure DevOps CI/CD; ~40% faster deployments.",
-        "Managed infra for 30+ apps; improved delivery cycles.",
-        "IaC automation using Python + Bash.",
-        "Quality gates + Git policies; ~35% fewer build failures.",
+        "Built production-grade REST APIs powering enterprise healthcare applications.",
+        "Accelerated release cycles by ~40% via CI/CD pipeline engineering.",
+        "Developed automated regression testing to improve release stability.",
       ],
     },
     {
-      title: "Operations and Lab Assistant",
+      title: "Prototyping & Lab Operations Engineer",
       org: "M2D2",
-      meta: "Jan 2025 – Aug 2025",
+      meta: "Sep 2024 – Jan 2025",
       bullets: [
-        "Ran workshop/event logistics for med-tech ecosystem.",
-        "Lab ops lead; ~20% faster troubleshooting turnaround.",
+        "Led end-to-end 3D prototyping workflows for med-tech startups using SolidWorks + GrabCAD.",
+        "Reduced print failures by ~25% through geometry validation and material calibration.",
+        "Troubleshot hardware/software integration issues across lab equipment and CAD systems.",
       ],
     },
     {
-      title: "Prototyping & 3D Design Engineer",
-      org: "UMass Lowell Innovation Hub",
-      meta: "Jan 2025 – Aug 2025",
-      bullets: [
-        "DFM + print troubleshooting (GrabCAD Print, SolidWorks).",
-        "Converted hardware requirements → digital specifications.",
-      ],
-    },
-    {
-      title: "Graduate Assistant, Hospitality & Event Services",
+      title: "Graduate Assistant (Summer), Hospitality & Event Services",
       org: "UMass Lowell",
       meta: "May 2025 – Sep 2025",
       bullets: [
