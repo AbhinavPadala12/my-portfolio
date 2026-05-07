@@ -46,6 +46,12 @@ const ProjectCard = ({ title, desc, tech, link }) => (
 export default function Projects() {
   const projects = [
     {
+      title: "NexusMend — Autonomous Microservice Fault Detection & Recovery",
+      desc: "Designed a multi-agent SRE system (LangGraph + Kafka) that autonomously diagnoses root causes at 92% confidence across 4 microservices and opens GitHub PRs to fix them — cutting MTTR from hours to under 10 seconds. Powered by OpenTelemetry & Prometheus observability, validated across 5 Chaos Engineering scenarios, with a React dashboard for real-time monitoring.",
+      tech: ["Python", "LangGraph", "Kafka", "React", "Docker", "OpenTelemetry", "Prometheus"],
+      link: "https://github.com/AbhinavPadala12",
+    },
+    {
       title: "AI Self-Healing Automation",
       desc: "Built a self-healing E2E testing framework that detects broken selectors, captures DOM context, and uses a local LLM to repair CSS selectors at runtime—reducing flaky test maintenance and keeping CI/CD green.",
       tech: ["Playwright", "JavaScript", "Node.js", "Ollama", "LLM (Llama 3.2)", "CI/CD"],
@@ -63,12 +69,6 @@ export default function Projects() {
       tech: ["Python", "Flask", "HTML", "Jinja", "REST APIs"],
       link: "https://github.com/AbhinavPadala12/Railway-Reservation-System",
     },
-    {
-      title: "Gender Detection Project",
-      desc: "Built and evaluated a classification model using structured features, with preprocessing, model training, and metrics-based evaluation.",
-      tech: ["Python", "Scikit-learn", "Preprocessing", "Classification", "Evaluation"],
-      link: "https://github.com/AbhinavPadala12/gender-detection-project",
-    },
   ]
 
   return (
@@ -80,12 +80,10 @@ export default function Projects() {
         </h2>
       </div>
 
-      {/* 2x2 layout (tight + clean) */}
       <div className="mt-10 grid gap-6 md:grid-cols-2">
-        <ProjectCard {...projects[0]} />
-        <ProjectCard {...projects[1]} />
-        <ProjectCard {...projects[2]} />
-        <ProjectCard {...projects[3]} />
+        {projects.map((p) => (
+          <ProjectCard key={p.title} {...p} />
+        ))}
       </div>
 
       {/* Bottom Button */}

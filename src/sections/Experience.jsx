@@ -21,9 +21,9 @@ export default function Experience() {
 
   const roles = [
     {
-      title: "Software Engineering Intern",
+      title: "Software Developer",
       org: "nirvanaHealth | RxAdvance",
-      meta: "Feb 2025 – Present",
+      meta: "Sep 2025 – Present",
       bullets: [
         "Built production-grade REST APIs powering enterprise healthcare applications.",
         "Accelerated release cycles by ~40% via CI/CD pipeline engineering.",
@@ -33,7 +33,7 @@ export default function Experience() {
     {
       title: "Prototyping & Lab Operations Engineer",
       org: "M2D2",
-      meta: "Sep 2024 – Jan 2025",
+      meta: "Jan 2025 – May 2026",
       bullets: [
         "Led end-to-end 3D prototyping workflows for med-tech startups using SolidWorks + GrabCAD.",
         "Reduced print failures by ~25% through geometry validation and material calibration.",
@@ -47,6 +47,15 @@ export default function Experience() {
       bullets: [
         "Resolved ops bottlenecks for housing services continuity.",
         "Standardized protocols; ~25% workflow efficiency gain.",
+      ],
+    },
+    {
+      title: "Software Engineering Intern",
+      org: "nirvanaHealth | RxAdvance · Noida, India",
+      meta: "Jan 2023 – May 2024",
+      bullets: [
+        "Embedded within the core platform team building Aria — nirvanaHealth's cloud-native Payer & PBM engine — developing and shipping React.js frontend modules and Spring Boot microservices directly consumed in production.",
+        "Built an internal analytics automation tool that replaced manual data aggregation across teams, cutting reporting turnaround from days to hours and getting adopted org-wide within weeks of launch.",
       ],
     },
   ]
