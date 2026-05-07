@@ -23,7 +23,7 @@ export default function Experience() {
     {
       title: "Software Developer",
       org: "nirvanaHealth | RxAdvance",
-      meta: "Sep 2025 – Present",
+      meta: "Aug 2025 – Jan 2026",
       bullets: [
         "Built production-grade REST APIs powering enterprise healthcare applications.",
         "Accelerated release cycles by ~40% via CI/CD pipeline engineering.",
